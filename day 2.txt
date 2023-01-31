@@ -1,0 +1,61 @@
+keyword seperate sep( )
+
+program                                                                                     
+                                                                                            
+a,b,c =9,2,3
+print(b,c,a,sep='*')
+output
+2*3*9
+
+split method                                                                                   
+
+split() 
+
+split method is mainly used for getting multiple inputs from user along with white space
+
+program
+x,y,z = input("enter the three value :").split('0')
+print("total number of students: ",x)
+print("number of boys is : ",y)
+print("number of girls is :",z)
+
+output
+enter the three value :56 0 76 0 98
+total number of students:  56 
+number of boys is :   76 
+number of girls is :  98
+
+end method
+
+end()
+
+we can concatentate our input values with different symbols
+
+program
+
+apple=100
+banana=200
+pineapple=300
+print(apple,end=' ')
+print(banana,end=' ')
+print(pineapple)
+print(apple,banana,pineapple)
+
+output
+
+100 200 300
+100 200 300
+
+loops 
+
+for loop
+
+for i in range (10,0,-1)
+    print(i,end="*")
+output
+10*9*8*7*6*5*4*3*2*1*
+
+
+
+
+
